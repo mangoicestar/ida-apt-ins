@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.6.1, pytest-3.6.0, py-1.5.3, pluggy-0.6.0
+rootdir: /Users/wang/.jenkins/workspace/ida-apt-ins, inifile:
+plugins: metadata-1.7.0, html-1.19.0
+collected 1 item
+
+test_p001.py F                                                           [100%]
+
+=================================== FAILURES ===================================
+_________________________________ test_answer __________________________________
+
+    def test_answer():
+>   	assert getfunction()==1
+E    assert 0 == 1
+E     +  where 0 = getfunction()
+
+test_p001.py:8: AssertionError
+----------------------------- Captured stdout call -----------------------------
+bb =  0
+ generated xml file: /Users/wang/.jenkins/workspace/ida-apt-ins/logs/xml/report.xml 
+ generated html file: /Users/wang/.jenkins/workspace/ida-apt-ins/logs/html/report.html 
+=========================== 1 failed in 0.09 seconds ===========================

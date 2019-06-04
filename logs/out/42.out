@@ -1,0 +1,11 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.6.1, pytest-3.6.0, py-1.5.3, pluggy-0.6.0
+rootdir: /Users/wang/.jenkins/workspace/ida-apt-ins, inifile:
+plugins: metadata-1.7.0, html-1.19.0
+collected 3 items
+
+test_p001.py ..s                                                         [100%]
+
+ generated xml file: /Users/wang/.jenkins/workspace/ida-apt-ins/logs/xml/report.xml 
+ generated html file: /Users/wang/.jenkins/workspace/ida-apt-ins/logs/html/report.html 
+===================== 2 passed, 1 skipped in 0.04 seconds ======================

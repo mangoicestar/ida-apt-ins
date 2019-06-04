@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.6.1, pytest-3.6.0, py-1.5.3, pluggy-0.6.0
+rootdir: /Users/wang/.jenkins/workspace/ida-apt-ins, inifile:
+plugins: metadata-1.7.0, html-1.19.0
+collected 0 items / 1 errors
+
+==================================== ERRORS ====================================
+________________________ ERROR collecting test_p001.py _________________________
+test_p001.py:5: in <module>
+    logging.basicConfig(filename="logs/"+str(os.path.basename(sys.argv[0])).split(".py")[0]+".log", format='%(time)s %(module)s.%(funcName)s (%(lineno)d)>>> 	[%(levelname)s] %(message)s', level=logging.INFO)
+E   NameError: name 'logging' is not defined
+ generated xml file: /Users/wang/.jenkins/workspace/ida-apt-ins/logs/xml/report.xml 
+ generated html file: /Users/wang/.jenkins/workspace/ida-apt-ins/logs/html/report.html 
+!!!!!!!!!!!!!!!!!!! Interrupted: 1 errors during collection !!!!!!!!!!!!!!!!!!!!
+=========================== 1 error in 0.20 seconds ============================

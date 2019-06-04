@@ -1,0 +1,8 @@
+2018-07-17 09:46:58,858 functions.<module> (8)>>> 	[INFO] start test 
+2018-07-17 09:46:58,858 test_p001.<module> (9)>>> 	[INFO] start test 
+2018-07-17 09:46:58,864 functions.getlogin (13)>>> 	[INFO] login  = 0
+2018-07-17 09:46:58,867 functions.getnotify (18)>>> 	[INFO] notify = 0
+2018-07-17 10:04:33,976 functions.<module> (8)>>> 	[INFO] start test 
+2018-07-17 10:04:33,977 test_p001.<module> (9)>>> 	[INFO] start test 
+2018-07-17 10:04:33,984 functions.getlogin (13)>>> 	[INFO] login  = 0
+2018-07-17 10:04:33,987 functions.getnotify (18)>>> 	[INFO] notify = 0
